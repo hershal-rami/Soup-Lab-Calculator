@@ -12,11 +12,9 @@ import javax.swing.JLabel;
 public class PrintAnswers {
 
 	private final JFrame frame;
-	private boolean open = false;
 
 	public PrintAnswers(double circumference, double height, double volume) {
 		frame = new JFrame("Answer Key");
-		open = true;
 
 		JLabel radius, predictedVolume, canVolume, optimalRadius, optimalHeight, optimalSurfaceArea,
 				originalSurfaceArea, percentSaved, newCostPerCan, newCost, moneySaved;
